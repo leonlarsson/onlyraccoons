@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html> -->
+<html>
+
+<head>
+    <!-- This website is actually useless -->
+
+    <!-- Primary Meta Tags -->
+    <title>OnlyRaccoons</title>
+    <meta name="title" content="OnlyRaccoons">
+    <meta name="description" content="Random Trash Pandas">
+    <meta name="theme-color" content="#7289da">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://onlyraccoons.com/">
+    <meta property="og:title" content="OnlyRaccoons">
+    <meta property="og:description" content="Random Trash Pandas">
+    <meta property="og:image"
+        content="https://i.redd.it/2xb6g9uumo271.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://onlyraccoons.com/">
+    <meta property="twitter:title" content="OnlyRaccoons">
+    <meta property="twitter:description" content="Random Trash Pandas">
+    <meta property="twitter:image"
+        content="https://i.redd.it/2xb6g9uumo271.jpg">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://leonlarsson.com/assets/icon.ico" type="image/png">
+
+    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <p id="text">You can click outside the image to show another trash panda :)<br>Loading trash panda...</p>
+    <p style="display: none;" id="vidText">Check the console for audio!</p>
+    <img id="image" src=" "></img>
+    <video muted controls loop id="video" src=" "></video>
+    <iframe id="youtube" src=" " frameborder="0" allowfullscreen></iframe>
+    <div onclick="loadImage()" id="container"></div>
+
+    <script>
+        window.onload = fetchImage;
+    </script>
+</body>
+
+</html>

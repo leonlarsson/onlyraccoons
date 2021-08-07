@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background: #0e0e0e;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    cursor: pointer;
+}
+
+#text, #vidText {
+    margin: auto;
+    /* display: none; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#image {
+    margin: auto;
+    margin-top: 10px;
+    height: 90vh;
+    display: none;
+    z-index: 1;
+}
+
+#video {
+    margin: auto;
+    margin-top: 10px;
+    height: 90vh;
+    display: none;
+    z-index: 1;
+}
+
+#youtube {
+    margin: auto;
+    margin-top: 10px;
+    height: 70vh;
+    width: 60vw;
+    display: none;
+    z-index: 1;
+}
