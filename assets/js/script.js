@@ -34,6 +34,7 @@ function loadImage() {
 
 
     try {
+        if (!response) return;
         const subreddit = response.data.children[child].data.subreddit;
         const linkID = response.data.children[child].data.id;
         const imgUrl = response.data.children[child].data.url; // Gets post URL
